@@ -61,7 +61,7 @@ const CustomCursor = () => {
     };
   }, []);
 
-  return <div className="cursor-dot" ref={cursorDotRef}></div>;
+  return <div className="cursor-dot hidden md:flex" ref={cursorDotRef}></div>;
 };
 
 export default CustomCursor;
